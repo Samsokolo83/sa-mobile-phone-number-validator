@@ -33,7 +33,7 @@ class ValidatorTests(unittest.TestCase):
 
     def test_validator(self):
         validator = Validator()
-        valid = validator.validate('0898474635')
+        valid = validator.validate('0742483354')
         self.assertTrue(valid)
         valid = validator.validate('0752781937')
         self.assertTrue(valid)
